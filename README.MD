@@ -7,11 +7,14 @@ To practice and hone in my skills, I would like to create a simple calculator ap
 Create a simple calculator application.
 
 # Draft plan:
+First UserStory:<br />
 Create a calculator application that can be used to add.<br />
 Create a calculator application that can be used to subtract.<br />
 Create a calculator application that can be used to multiply.<br />
 Create a calculator application that can be used to divide.<br />
 
+Second UserStory:<br />
+Ensure your calculator  opperators can use more than two numbers per calculation. <br />
 # Build status:
 Testing stage. 
 

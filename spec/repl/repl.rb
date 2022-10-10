@@ -1,19 +1,19 @@
 # To test addition:
 require './lib/calculator'
 calculator = Calculator.new
-calculator.addition(5,10)
+calculator.add(2, 3, 5, 10)
 
 # To test subtraction:
 require './lib/calculator'
 calculator = Calculator.new
-calculator.subtraction(10,5)
+calculator.subtract(10, 3, 5, 1)
 
 # To test multiply:
 require './lib/calculator'
 calculator = Calculator.new
-calculator.multiplies(10,5)
+calculator.multiply(10, 3, 5)
 
 # To test divide:
 require './lib/calculator'
 calculator = Calculator.new
-calculator.divides(10,5)
+calculator.divide(24, 2, 2, 3)

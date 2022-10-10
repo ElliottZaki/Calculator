@@ -1,19 +1,27 @@
 class Calculator
 
-    def addition(x, y)
-        x + y
+    def initialize
+        @total = 0
     end
 
-    def subtraction(x, y)
-        x - y
+    def add(*args)
+        @total = args.each.inject(:+)
     end
 
-    def multiplies(x, y)
-        x * y
+    def subtract(*args)
+        @total = args.each.inject(:-)
     end
 
-    def divides(x, y)
-        x / y
+    def multiply(*args)
+        @total = args.each.inject(:*)
     end
+
+    def divide(*args)
+        @total = args.inject(:/)
+    end
+
+    # def total(total)
+    #     puts "The total equals: #{@total}"
+    # end
 
 end
