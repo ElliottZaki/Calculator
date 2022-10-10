@@ -23,5 +23,12 @@ describe Calculator do
         end
      end
 
+     describe '#divides operator' do
+        it 'divides two numbers together to give a new total value' do
+            calculator = Calculator.new
+            expect(subject.divides(10, 5)).to eq 2
+        end
+    end
+
 
 end

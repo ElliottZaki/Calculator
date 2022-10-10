@@ -12,3 +12,8 @@ calculator.subtraction(10,5)
 require './lib/calculator'
 calculator = Calculator.new
 calculator.multiplies(10,5)
+
+# To test divide:
+require './lib/calculator'
+calculator = Calculator.new
+calculator.divides(10,5)
