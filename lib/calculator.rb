@@ -8,4 +8,8 @@ class Calculator
         x - y
     end
 
+    def multiplies(x, y)
+        x * y
+    end
+
 end

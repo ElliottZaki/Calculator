@@ -7,3 +7,8 @@ calculator.addition(5,10)
 require './lib/calculator'
 calculator = Calculator.new
 calculator.subtraction(10,5)
+
+# To test multiply:
+require './lib/calculator'
+calculator = Calculator.new
+calculator.multiplies(10,5)

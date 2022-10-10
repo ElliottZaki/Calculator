@@ -16,5 +16,12 @@ describe Calculator do
         end
      end
 
+     describe '#multiply operator' do
+        it 'multiplies two numbers together to give a new total value' do
+            calculator = Calculator.new
+            expect(subject.multiplies(10, 5)).to eq 50
+        end
+     end
+
 
 end
